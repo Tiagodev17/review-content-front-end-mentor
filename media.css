@@ -19,7 +19,7 @@
 
     --namethree:"Lexend Deca", sans-serif;
 }
-@media(min-width:1145px){
+@media(max-width:1145px){
 
 body{
     font-size: 15px;
