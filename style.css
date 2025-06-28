@@ -30,7 +30,7 @@ body{
     align-items: center;
 }
 article{
-    width:55% ;
+    width:100%;
     height: 100%;
     
 }
@@ -45,14 +45,12 @@ article{
 } 
 
 .contents{
-    width: 40rem;
-    height: 18rem;
+    height: 22rem;
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: flex-end;
-    gap: 1.5rem;
-  
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
  
 .contents h1{
@@ -71,10 +69,20 @@ article{
     color:  hsla(0, 0%, 100%, 0.75);
     font-family: var(--nameone);
     font-weight: 400;
-    width: 80%;
+    width: 77%;
     font-size: 1.3rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
+    
    
+}
+.contentsnumbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 7rem;
+    gap: 0.3rem;
+    
 }
 .contentsnumbers h2{
     color:hsl(0, 0%, 100%);
@@ -86,28 +94,17 @@ article{
     font-family: var(--nametwo);
     font-weight: 400;
 }
-.contentsnumbers{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    flex-direction: column;
-    height: 10rem;
-    width: 45rem;
-    gap: 0.3rem;
-    
-}
 .contenth2{
     display: flex;
-    justify-content: space-evenly;
+    gap: 9.8rem;
     flex-direction: row;
-    gap: 9rem;
     font-size: 1rem;
     
 }
 .contenth3{
     display: flex;
     flex-direction: row;
-    gap: 6rem;
+    gap: 6.5rem;
     font-size: 0.9rem;
     
 }

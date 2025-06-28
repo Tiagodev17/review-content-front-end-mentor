@@ -20,77 +20,80 @@
     --namethree:"Lexend Deca", sans-serif;
 }
 @media(min-width:1145px){
-    .container{
-    background-color: hsl(244, 38%, 16%);
-    height: 70rem;
-    width: 55rem;
-    display: flex;
-    flex-direction: column;
-    border-radius: 1rem;
-    }   
-    .article{
-    width:55% ;
-    height: 100%;
-    }
-    .contents{
-        width: 50rem;
-        height: 25rem;
-    }
-    .contents h1{
-    color: hsl(0, 0%, 100%);
-    font-family: var(--nametwo);
-    font-size: 2.5rem;
-    width: 80%;
-    font-weight: 700;
-}
-
-
-   .contents  p{
-    color:  hsla(0, 0%, 100%, 0.75);
-    font-family: var(--nameone);
-    font-weight: 400;
-    width: 80%;
-    font-size: 1rem;
-    line-height: 1.5rem;
-   
-}
-.contentsnumbers{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    flex-direction: column;
-    height: 10rem;
-    width: 55rem;
-    gap: 0.3rem;
-    
-}
-
-.contenth2{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    gap: 9rem;
-    font-size: 1rem;
-    
-}
-.contenth3{
-    display: flex;
-    flex-direction: row;
-    gap: 6rem;
-    font-size: 0.9rem;
-    
-}
-    
-}
-    
- 
 
 body{
     font-size: 15px;
     background-color: hsl(233, 47%, 7%)
     ;
-    height: 95vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+article{
+    width:100%;
+    height: 70%;
+}    
+.container{
+    background-color: hsl(244, 38%, 16%);
+    height: 60rem;
+    width: 35rem;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 1rem;
+}
+.contents{
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.contentsnumbers{
+    display: flex;
+    flex-direction: column;
+    height:13rem;
+    width: 100%;
+    
+}
+
+.contenth2{
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    font-size: 1rem;
+    
+}
+.contenth3{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    font-size: 0.9rem;
+    
+}
+
+.container-img{
+    background-image: url(stats-preview-card-component-main/images/image-header-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center  center;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    border-radius: 0 1rem 1rem 0 ; 
+    
+    
+}
+.overlay{
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: hsl(277, 62%, 32%);
+    opacity: 0.6;
+    border-radius: 0 1rem 1rem 0 ; 
+    
+}
+
+
+}
+
