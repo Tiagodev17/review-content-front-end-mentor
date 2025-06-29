@@ -82,27 +82,8 @@ article{
 .content-h2h3{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 10rem;
-}
-.content-h2{
-    display: flex;
-    justify-content: space-between;
-    width: 75%;
-    font-size: 1.3rem;
-    color: white;
-    font-family: var(--nameone);
-
-    
-}
-.content-h3{
-    display: flex;
-    justify-content: space-between;
-    width: 75%;
-    font-size: 1rem;
-    color:hsla(0, 0%, 100%, 0.75) ;
-    font-family: var(--nameone);
+    height: 13rem;
+    width: 30rem;
 }
 
 
