@@ -49,29 +49,32 @@ article{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    text-align: center;
 }
 .contentsnumbers{
-    display: flex;
-    flex-direction: column;
     height:13rem;
     width: 100%;
     
 }
+.content-h2h3{
+    display: flex;
+    flex-direction: column;
+    height: 13rem;
+    width: 35rem;
+}
+.content-h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 
-.contenth2{
-    display: flex;
-    gap: 0;
-    flex-direction: column;
-    font-size: 1rem;
-    
 }
-.contenth3{
+.content-h3{
     display: flex;
     flex-direction: column;
-    gap: 0;
-    font-size: 0.9rem;
-    
-}
+}    
+
 
 .container-img{
     background-image: url(stats-preview-card-component-main/images/image-header-desktop.jpg);
