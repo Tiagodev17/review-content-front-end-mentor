@@ -32,7 +32,6 @@ body{
 article{
     width:100%;
     height: 100%;
-    
 }
 .container{
     background-color: hsl(244, 38%, 16%);
@@ -40,17 +39,18 @@ article{
     width: 80rem;
     display: flex;
     border-radius: 1rem;
-    
-    
+     
 } 
 
 .contents{
     height: 22rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    
 }
  
 .contents h1{
@@ -59,11 +59,14 @@ article{
     font-size: 3rem;
     width: 80%;
     font-weight: 700;
+    
+    
 }
 #insights{
     color: hsl(277, 64%, 61%)
     ;
     font-weight: 700;
+    
 }
 .contents  p{
     color:  hsla(0, 0%, 100%, 0.75);
@@ -72,22 +75,30 @@ article{
     width: 77%;
     font-size: 1.3rem;
     line-height: 2rem;
-    
    
 }
-.contentsnumbers{
-    height: 13rem;
-    width: 100%;  
-}
-.content-h2h3{
+
+.contentsh2{
     display: flex;
-    flex-direction: column;
-    height: 13rem;
-    width: 30rem;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    height: 8rem;
+    gap: 1rem;    
+
 }
+.itens h2{
+    color: white;
+    font-size: 2rem;
+    font-family: var(--nameone);
+    
+}
+.itens h3{
+    color: hsla(0, 0%, 100%, 0.75) ;
+    font-size: 1rem;
+    font-family: var(--namethree);
 
-
-
+}
 
 .container-img{
     background-image: url(stats-preview-card-component-main/images/image-header-desktop.jpg);

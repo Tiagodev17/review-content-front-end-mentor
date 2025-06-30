@@ -4,99 +4,58 @@
     padding: 0;
     margin: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,399&family=Lexend+Deca:wght@100..900&display=swap');
-
-:root{
-    --nameone:"Inter", sans-serif;
-    
-
-    --nametwo:"inter", sans-serif;
-    
-
-    --namethree:"Lexend Deca", sans-serif;
-}
-@media(max-width:1145px){
-
-body{
-    font-size: 15px;
-    background-color: hsl(233, 47%, 7%)
-    ;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-article{
-    width:100%;
-    height: 70%;
-}    
+@media (max-width:960px){
 .container{
-    background-color: hsl(244, 38%, 16%);
-    height: 60rem;
-    width: 35rem;
     display: flex;
     flex-direction: column-reverse;
-    border-radius: 1rem;
+    height: 62rem;
+    width: 30rem;
+    border-radius: 1rem 1rem 1rem 1rem ;  
+}
+article{
+    height: 63%;
 }
 .contents{
-    height: 22rem;
+    height: 20rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     text-align: center;
 }
-.contentsnumbers{
-    height:13rem;
-    width: 100%;
-    
-}
-.content-h2h3{
+.contentsh2{
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
-    height: 13rem;
-    width: 35rem;
-}
-.content-h2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 100%;
+    height: 18rem;
+    gap: 1rem;
+    text-align: center;    
 
 }
-.content-h3{
-    display: flex;
-    flex-direction: column;
-}    
-
-
 .container-img{
     background-image: url(stats-preview-card-component-main/images/image-header-desktop.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center  center;
+    background-size: cover;
     width: 100%;
-    height: 50%;
+    height: 23rem;
     position: relative;
-    border-radius: 0 1rem 1rem 0 ; 
-    
-    
+    border-radius: 1rem 1rem 0  0 ; 
 }
-.overlay{
+    .overlay{
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background-color: hsl(277, 62%, 32%);
     opacity: 0.6;
-    border-radius: 0 1rem 1rem 0 ; 
+    border-radius: 1rem 1rem 0  0 ; 
+    
+}
     
 }
 
 
-}
 
