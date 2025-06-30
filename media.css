@@ -38,7 +38,7 @@ article{
 
 }
 .container-img{
-    background-image: url(stats-preview-card-component-main/images/image-header-desktop.jpg);
+    background-image: url(stats-preview-card-component-main/images/image-header-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
